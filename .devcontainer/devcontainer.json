@@ -1,11 +1,11 @@
 {
   "name": "PreTeXt-Full",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/rocker-org/devcontainer-features/pandoc:1": {}
   },
+  "onCreateCommand": "pip install pretext && pretext new -d .",
   // Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
+  "postCreateCommand": "./.devcontainer/postCreateCommand.sh",
 
 	// Configure tool-specific properties.
 	"customizations": {
