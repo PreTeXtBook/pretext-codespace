@@ -1,14 +1,28 @@
 {
   "name": "PreTeXt-Full",
+	"image": "texlive/texlive",
   "features": {
-    "ghcr.io/rocker-org/devcontainer-features/pandoc:1": {}
-  },
-  "onCreateCommand": "pip install pretext && pretext new -d .",
+		"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {},
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/python:1": {},
+		"ghcr.io/devcontainers/features/node:1": {}
+	},
+	"forwardPorts": [
+		27377,
+		27378
+	],
+  "onCreateCommand": "pip install CodeChat_Server pretext && pretext new -d .",
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "sudo bash ./.devcontainer/postCreateCommand.sh",
+  // "postCreateCommand": "sudo bash ./.devcontainer/postCreateCommand.sh",
 
 	// Configure tool-specific properties.
 	"customizations": {
+		"codespaces": {
+			"openFiles": [
+				"project.ptx",
+				"source/main.ptx"
+			]
+		},
 		"vscode": {
 			"extensions": [
 				"CodeChat.codechat",
