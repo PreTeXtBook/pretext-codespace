@@ -11,6 +11,15 @@
 		27377,
 		27378
 	],
+	"portsAttributes": {
+		"27378": {
+			"label": "CodeChat",
+			"onAutoForward": "openPreview",
+			"requireLocalPort": true,
+			"elevateIfNeeded": true,
+			"protocol": "https"
+		}
+	},
   "onCreateCommand": "pip install CodeChat_Server pretext && pretext new -d .",
   // Use 'postCreateCommand' to run commands after the container is created.
   // "postCreateCommand": "sudo bash ./.devcontainer/postCreateCommand.sh",
