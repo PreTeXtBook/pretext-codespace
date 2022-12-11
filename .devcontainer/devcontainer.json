@@ -33,6 +33,9 @@
 			]
 		},
 		"vscode": {
+			"settings": {
+				"CodeChat.CodeChatServer.Command": "CodeChat_Server"
+			},
 			"extensions": [
 				"CodeChat.codechat",
 				"oscarlevin.pretext-tools"
