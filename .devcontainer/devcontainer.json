@@ -1,8 +1,8 @@
 {
   "name": "PreTeXt-Full",
-  "features": {
-		"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {}
-	},
+  // "features": {
+	// 	"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {}
+	// },
 	"forwardPorts": [
 		27377,
 		27378
@@ -34,6 +34,7 @@
 			},
 			"extensions": [
 				"CodeChat.codechat",
+				"ms-vscode.live-server",
 				"oscarlevin.pretext-tools"
 			]
 		}
