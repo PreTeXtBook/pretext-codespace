@@ -8,3 +8,5 @@ apt-get update && apt-get install -y texlive texlive-latex-extra texlive-fonts-e
 echo "Install sage"
 apt-get install -y sagemath --no-install-recommends
 
+echo "Install PDF tools"
+apt install -y ghostscript pdf2svg --no-install-recommends
