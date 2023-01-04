@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+wget https://raw.githubusercontent.com/oscarlevin/pandoc-pretext/master/pretext.lua
+
 echo "Install LaTeX"
 apt-get update && apt-get install -y texlive texlive-latex-extra texlive-fonts-extra texlive-xetex texlive-science --no-install-recommends
 
