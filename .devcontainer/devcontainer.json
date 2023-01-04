@@ -1,6 +1,8 @@
 {
   "name": "PreTeXt-Full",
+  "image": "mcr.microsoft.com/devcontainers/python:3",
   "features": {
+    "ghcr.io/devcontainers/features/node:1": {},
     "ghcr.io/rocker-org/devcontainer-features/pandoc:1": {}
   },
   // "forwardPorts": [
@@ -23,7 +25,11 @@
   // Configure tool-specific properties.
   "customizations": {
     "codespaces": {
-      "openFiles": ["project.ptx", "source/main.ptx"]
+      "openFiles": [
+        "source/main.ptx",
+        "project.ptx",
+        "publication/publication.ptx"
+      ]
     },
     "vscode": {
       "settings": {
