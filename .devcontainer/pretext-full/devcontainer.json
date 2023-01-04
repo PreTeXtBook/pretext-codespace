@@ -36,7 +36,8 @@
         "editor.quickSuggestions": {
           "other": "off"
         },
-        "editor.snippetSuggestions": "top"
+        "editor.snippetSuggestions": "top",
+        "xml.validation.enabled": false
       },
       "extensions": ["ms-vscode.live-server", "oscarlevin.pretext-tools"]
     }
