@@ -1,7 +1,7 @@
-# Help for Generating Assets in PreTeXt-Codespace
+# Help for LaTeX-based builds (PDF) and Generating Assets in PreTeXt-Codespace
 
-If you need to generate assets, such as `latex-image` or `sageplot` as part of your PreTeXt build, you need to have some additional software installed.  To install these inside the codespace, simply copy the following command and paste it into the "Terminal" (and hit Enter):
+There are three docker images available trading off between size and functionality.  If you find that the default "small" image leads to compilation errors when building LaTeX or when generating some assets, switch to the "full" tag.  If you only build web targets and don't have any latex-image assets to generate, you can use the "lite" tag to save more space.
 
-sudo bash ./.devcontainer/postCreateCommand.sh
+To change the docker image, open the file `.devcontainer/devcontainer.json`, comment out the line starting with `"image":` and uncomment the appropriate alternative line below that.
 
-You can also get this automatically when you create a new codespace.  When you go to create a new codespace, click the three dots next to the + sign on the first line of the menu.  Select "New with options..."  Then on the "Dev container configuration" select the "pretext-full" option.
+Once you save the `devcontainer.json` file, VS Code should offer to rebuild your container.  You can also force a rebuild using the command pallet or clicking the "Codespaces" button in the bottom status bar.
