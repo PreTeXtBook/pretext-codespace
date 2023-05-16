@@ -9,6 +9,7 @@
   // "image": "oscarlevin/pretext:lite",
 
 
+  "postCreateCommand": "pretext new -d .",
 
   // Configure tool-specific properties.
   "customizations": {
