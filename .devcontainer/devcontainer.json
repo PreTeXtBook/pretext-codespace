@@ -10,7 +10,7 @@
 
   // Add gh cli as a feature (to support chodechat)
   "features": {
-    "ghcr.io/devcontainers/features/gh-cli:0.1": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {}
   },
 
 
