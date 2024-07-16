@@ -5,8 +5,9 @@
 # ensure this file is tracked
 !.gitignore
 
-# don't track unpublished builds or stage
+# don't track unpublished builds or stage (note: Runestone uses `published`)
 output
+published
 
 # don't track assets generated from source
 generated-assets
@@ -97,3 +98,7 @@ GitHub.sublime-settings
 
 # Don't track codechat config (will be generated automatically)
 codechat_config.yaml
+
+# Don't track deprecated workflows
+.github/workflows/deploy.yml
+.github/workflows/test-build.yml
