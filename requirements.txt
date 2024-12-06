@@ -1,2 +1,2 @@
 # <!-- Managed automatically by PreTeXt authoring tools -->
-pretext == 2.9.1
+pretext == 2.9.2
