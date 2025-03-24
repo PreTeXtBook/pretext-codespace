@@ -1,2 +1,2 @@
-# This file was automatically generated with PreTeXt 2.15.0.
-pretext == 2.15.0
+# This file was automatically generated with PreTeXt 2.15.1.
+pretext == 2.15.1
