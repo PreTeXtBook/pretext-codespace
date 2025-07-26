@@ -16,7 +16,9 @@ To start work on your project, go to the green button at the top of *your* repos
 2. Click on the tab that says "Codespaces."
 3. Click "Create codespace on main."
 
-This may take a minute or two (just the first time; later this will be faster) and then open a browser version of VS Code with everything set up to start working.  The first thing you should do is create a new PreTeXT project:
+This will open a new tab with a browser version of VS Code including everything set up to start working.  (When you first create a codespace for a project, it may take 5-10 minutes; when you restart a codespace it will be much faster).  The first thing you should do is create a new PreTeXT project.
+
+### Creating a New Project
 
 1. Open the command palette by hitting `Ctrl+Shift+P` (or `F1`) and start typing "pretext new".  You will see a command titled "PreTeXt: New Project".
 2. Hit `Enter` and select what sort of project you would like to create.  
