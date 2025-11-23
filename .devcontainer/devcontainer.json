@@ -1,4 +1,4 @@
-// This file was automatically generated with PreTeXt 2.30.2.
+// This file was automatically generated with PreTeXt 2.32.0.
 // If you modify this file, PreTeXt will no longer automatically update it.
 //
 //////////////////////////////////////////////////////////////
@@ -13,9 +13,9 @@
 //
 ///////////////////////////////////////////////////////////////
 {
-  "image": "pretextbook/pretext-full:1.4", // uses latest image from https://hub.docker.com/r/PreTeXtBook/pretext-full/tags
+  "image": "pretextbook/pretext-full:1.5", // uses latest image from https://hub.docker.com/r/PreTeXtBook/pretext-full/tags
   // If you don't need sagemath, you can use a smaller base image.  Comment out the line above and uncomment the line below to use a smaller image.
-  // "image": "pretextbook/pretext:1.4",
+  // "image": "pretextbook/pretext:1.5",
   "features": {"ghcr.io/devcontainers/features/github-cli": {}},
 
   // The pretext-full image above includes pretext, prefigure, and enough parts of latex and sagemath for most cases.  Here we install additional dependencies.
