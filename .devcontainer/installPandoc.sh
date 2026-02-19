@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This file was automatically generated with PreTeXt 2.37.0.
+# This file was automatically generated with PreTeXt 2.37.1.
 # If you modify this file, PreTeXt will no longer automatically update it.
 
 # Detect architecture and download appropriate Pandoc version
