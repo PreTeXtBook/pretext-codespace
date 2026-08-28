@@ -1,4 +1,4 @@
-# This file was automatically generated with PreTeXt 2.49.1.
+# This file was automatically generated with PreTeXt 2.51.0.
 # If you modify this file, PreTeXt will no longer automatically update it.
 #
 # Boilerplate list of files in a PreTeXt project for git to ignore
@@ -98,9 +98,6 @@ venv/
 .dropbox
 .dropbox.attr
 .dropbox.cache
-
-# Don't track codechat config (will be generated automatically)
-codechat_config.yaml
 
 # Don't track deprecated workflows
 .github/workflows/deploy.yml
